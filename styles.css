@@ -22,6 +22,7 @@
 	text-decoration: none;
 	text-transform: capitalize;
 	transition: 0.2s linear;
+	list-style: none;
 }
 
 html {
@@ -46,6 +47,7 @@ html::-webkit-scrollbar-thumb {
 
 section {
 	padding: 5rem 7%;
+	margin-bottom: 6rem;
 }
 
 .heading {
@@ -152,14 +154,12 @@ section {
 
 .home .content p {
 	line-height: 2;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	color: var(--dark-color);
 	padding: 1rem 0;
 }
 
 /* home end */
-
-/* about us */
 
 .about .row {
 	display: flex;
@@ -188,7 +188,7 @@ section {
 }
 
 .about .row .content p {
-	font-size: 1.4rem;
+	font-size: 1.9rem;
 	color: var(--light-color);
 	padding: 1rem 0;
 	line-height: 2;
@@ -239,11 +239,6 @@ section {
 
 /* services section ends */
 
-/* team section */
-
-.team .slide {
-	text-align: center;
-}
 
 .team .slide .image {
 	position: relative;
@@ -252,6 +247,7 @@ section {
 
 .team .slide .image img {
 	width: 100%;
+	height: 35vh;
 }
 
 .team .slide .image .share {
@@ -310,7 +306,7 @@ section {
 
 .pricing .box-container .box {
 	height: 46rem;
-	width: 30rem;
+	width: 36rem;
 	margin: 2rem 4rem;
 	border-radius: 1rem;
 	box-shadow: var(--box-shadow);
@@ -321,9 +317,10 @@ section {
 	background: var(--white);
 }
 
-.pricing .box-container .active {
+.pricing .box-container :hover {
 	background: var(--hover);
 }
+
 
 .pricing .box-container .box .title {
 	margin: 3rem 0;
@@ -385,7 +382,7 @@ section {
 
 .blog .box-container .box .image {
 	height: 50rem;
-	width: 80%;
+	width: 100%;
 	overflow: hidden;
 }
 
@@ -487,6 +484,10 @@ section {
 	width: 49%;
 }
 
+input#dateText{
+	text-transform: none;
+}
+
 .contact form .box {
 	margin: 1rem 0;
 	width: 100%;
@@ -495,8 +496,9 @@ section {
 	padding: 1rem;
 	font-size: 1.7rem;
 	color: var(--black);
-	text-transform: capitalize;
+	
 }
+
 
 /* contact ends */
 
@@ -504,6 +506,7 @@ section {
 
 .footer {
 	text-align: center;
+	padding-top: 0px;
 }
 
 .footer .box-container {
