@@ -135,7 +135,7 @@ section {
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
-	background: url(images.jpg) no-repeat;
+	background: url(/images/images.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
 }
@@ -155,7 +155,7 @@ section {
 .home .content p {
 	line-height: 2;
 	font-size: 2rem;
-	color: var(--dark-color);
+	color:black;
 	padding: 1rem 0;
 }
 
@@ -645,5 +645,8 @@ input#dateText{
 
 	.home .content h3 {
 		font-size: 3rem;
+	}
+	.contact .map{
+		display: none;
 	}
 }
